@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hymn.esrichina.thisapp.Main"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <hymn.esrichina.thisapp.Page1_1
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></hymn.esrichina.thisapp.Page1_1>
+
+            <hymn.esrichina.thisapp.page1_2
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:LBackGround="@drawable/a"></hymn.esrichina.thisapp.page1_2>
+
+            <hymn.esrichina.thisapp.page1_3
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:LBackGround="@drawable/a"
+                app:LBackGround2="@drawable/a"
+                app:LBackGround3="@drawable/a"></hymn.esrichina.thisapp.page1_3>
+
+            <hymn.esrichina.thisapp.page1_2
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="60dp"
+                app:LBackGround="@drawable/a"></hymn.esrichina.thisapp.page1_2>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

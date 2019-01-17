@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Mynewpage">
+        <attr name="LText" format="string"></attr>
+        <attr name="LBackGround" format="reference"></attr>
+        <attr name="LBackGround2" format="reference"></attr>
+        <attr name="LBackGround3" format="reference"></attr>
+    </declare-styleable>
+</resources>

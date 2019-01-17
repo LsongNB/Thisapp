@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_select"
+        app:elevation="5dp"
+        app:fabSize="normal"
+        app:rippleColor="#ffff00"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_compile"
+        app:elevation="5dp"
+        app:fabSize="normal"
+        app:rippleColor="#ffff00"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_location"
+        app:elevation="5dp"
+        app:fabSize="normal"
+        app:rippleColor="#ffff00" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_toolbar_add"
+        app:elevation="5dp"
+        app:fabSize="normal"/>
+
+</FrameLayout>
