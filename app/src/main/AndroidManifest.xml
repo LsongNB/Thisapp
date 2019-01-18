@@ -25,7 +25,7 @@
         <activity
             android:name=".Menu_scence"
             android:label="三维展示" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".App_fab"></activity>
     </application>
 
 </manifest>

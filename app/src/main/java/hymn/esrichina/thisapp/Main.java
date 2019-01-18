@@ -2,9 +2,6 @@ package hymn.esrichina.thisapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -83,7 +80,7 @@ public class Main extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
-            Intent intent=new Intent(Main.this,Main2Activity.class);
+            Intent intent=new Intent(Main.this,App_fab.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
 

@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         </com.esri.arcgisruntime.mapping.view.MapView>
-    <include layout="@layout/activity_main2"></include>
+    <include layout="@layout/app_fab"></include>
+    <include layout="@layout/app_draw"></include>
     <ListView
     android:id="@+id/navList"
     android:layout_width="200dp"

@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Main2Activity extends AppCompatActivity {
+public class App_fab extends AppCompatActivity {
 
     private static final int DISTANCE = 300;
     private static final int DISTANCE2 = 220;
@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.app_fab);
 
         initView();
     }

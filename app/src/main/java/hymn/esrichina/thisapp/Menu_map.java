@@ -332,7 +332,7 @@ public class Menu_map extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 isSelect = false;
-                featureLayer.clearSelection();
+                //featureLayer.clearSelection();
                 //mainSketchEditor.stop();
                 //mainSketchEditor.start(SketchCreationMode.POLYGON);
                 showListDialog();
